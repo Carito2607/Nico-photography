@@ -55,10 +55,9 @@ background-color: #f3d4bf;}
 }
 
 /* Video Section */
-.video-image {width: 80%;
-  position: relative;
-  padding-top: 5%;
-  padding-bottom: 5%;
+#video {
+  padding: 5% 15%;
+
 }
 
 
