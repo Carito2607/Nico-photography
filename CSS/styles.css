@@ -1,0 +1,123 @@
+* body {
+font-family: 'Alegreya SC';
+text-align: center;
+background-color: #f3d4bf;}
+
+/* Title */
+.navbar-brand{
+  text-align: left;
+  font-size: 3rem;
+  font-style: italic;
+  }
+/* Right hand buttons */
+.nav-item {
+  text-align: right;
+  padding: 0 18px;
+  font-size: 1.25rem;
+}
+
+/* *logo colour */
+.navbar-light .navbar-brand {
+    color: #fff1e9;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff1e9;
+}
+
+
+/* Carousel section */
+.container-fluid {
+  text-align: center;
+  padding: 0;
+}
+
+.carousel-image {
+  width: 100%;
+  height:40%;
+  }
+
+.carousel-text {
+
+  font-size: 1.875rem;
+  font-style: italic;
+  color:#fff1e9;
+}
+
+/* About me  */
+#About-me {
+  background-color: #e9967a;
+
+}
+.personal-description {
+  padding:5% 15% 7%;
+  color:#fff1e9;
+}
+
+/* Video Section */
+.video-image {width: 80%;
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+/* Smaller Images  */
+#smaller-images {
+  background-color: #fff1e9;
+padding:5% 7% 5% 7%;
+
+}
+
+.img-fluid-Portfolio {
+  width:70%;
+  padding-right: 0;
+
+}
+
+.img-fluid-smaller-images {
+  width: 70%;
+  padding-left: 0;
+}
+
+.centered {
+  color:#fff1e9;
+  font-size: 1.875rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Quick-zoom Container */
+.img-hover-zoom {
+  height: auto; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .7s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+/* Contact me  */
+#contact-me {
+  padding: 5% 15%;
+}
+
+.btn {
+  font-size:  1.25rem;
+}
+
+.Copyright {
+  font-size: 1.35rem;
+  color:#fff1e9;
+}
+.footer-logo {
+  margin: 20px 20px;
+}
