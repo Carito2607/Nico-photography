@@ -3,12 +3,14 @@ font-family: 'Alegreya SC';
 text-align: center;
 background-color: #f3d4bf;}
 
-/* Title */
-.navbar-brand{
+/* *logo colour */
+.navbar-light .navbar-brand {
   text-align: left;
   font-size: 3rem;
   font-style: italic;
-  }
+  color: #e9967a;
+}
+
 /* Right hand buttons */
 .nav-item {
   text-align: right;
@@ -16,15 +18,9 @@ background-color: #f3d4bf;}
   font-size: 1.25rem;
 }
 
-/* *logo colour */
-.navbar-light .navbar-brand {
-    color: #fff1e9;
-}
-
 .navbar-light .navbar-nav .nav-link {
     color: #fff1e9;
 }
-
 
 /* Carousel section */
 .container-fluid {
@@ -68,16 +64,7 @@ padding:5% 7% 5% 7%;
 
 }
 
-.img-fluid-Portfolio {
-  width:70%;
-  padding-right: 0;
-
-}
-
-.img-fluid-smaller-images {
-  width: 70%;
-  padding-left: 0;
-}
+.align-self-start {padding: }
 
 .centered {
   color:#fff1e9;
@@ -87,6 +74,10 @@ padding:5% 7% 5% 7%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.floral-design {padding-left: 45%;
+ }
+
 
 /* Quick-zoom Container */
 .img-hover-zoom {
@@ -106,7 +97,7 @@ padding:5% 7% 5% 7%;
 
 /* Contact me  */
 #contact-me {
-  padding: 5% 15%;
+  padding: 5% 15% 3%;
 }
 
 .btn {
@@ -114,9 +105,46 @@ padding:5% 7% 5% 7%;
 }
 
 .Copyright {
-  font-size: 1.35rem;
+  font-size: 1.30rem;
   color:#fff1e9;
 }
 .footer-logo {
   margin: 20px 20px;
+}
+
+/* Links section */
+
+/* unvisited link */
+a:link {
+  color: #fff1e9;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #fff1e9;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #e9967a;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #fff1e9;
+  text-decoration: none;
+  }
+
+.navbar-light .navbar-nav .active>.nav-link{ color: #fff1e9;}
+
+.navbar-light .navbar-nav .active>.nav-link:hover {color:rgba(0,0,0,.5);}
+
+.attributions {font-size:0.5rem; }
+
+@media screen and (max-width: 575px) {
+  .mmMY {margin: 1rem 0;}
+  .floral-design {display: none;}
 }
