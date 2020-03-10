@@ -42,7 +42,7 @@ background-color: #f3d4bf;}
 
 /* About me  */
 #About-me {
-  background-color: #e9967a;
+  background-color:#e9967a;
 
 }
 .personal-description {
@@ -53,7 +53,6 @@ background-color: #f3d4bf;}
 /* Video Section */
 #video {
   padding: 5% 15%;
-
 }
 
 
@@ -76,7 +75,6 @@ padding:5% 7% 5% 7%;
 }
 
 .floral-design {padding-left: 45%;
-  padding-right:45%;
  }
 
 
@@ -148,4 +146,12 @@ a:active {
 @media screen and (max-width: 575px) {
   .mmMY {margin: 1rem 0;}
   .floral-design {display: none;}
+}
+
+@media screen and (max-width: 603px) {
+    .floral-design {display: none;}
+}
+
+@media screen and (max-width: 754px) {
+    .floral-design {display: none;}
 }
