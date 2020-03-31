@@ -165,7 +165,7 @@ a:active {
 
 #second-carousel_1 {padding: 20% 5%;
 }
-img {width: 400px;}
+.img-responsive {width: 400px;}
 
 h2 {font-weight: bold;
 color: #c7866a;}
@@ -178,11 +178,6 @@ padding-right: 5%;}
 padding-right: 5%;}
 
 /* Stories */
-$(document).ready(function() {
-    $('#Carousel').carousel({
-        interval: 5000
-    })
-});
 body{padding-top:20px;}
 .carousel {
     margin-bottom: 0;
@@ -245,3 +240,4 @@ input[type=submit] {
 
 .floral-design2 {
   padding-left:0;}
+
