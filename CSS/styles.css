@@ -1,14 +1,14 @@
 * body {
 font-family: 'Alegreya SC';
 text-align: center;
-background-color: #f3d4bf;}
+background-color: #faf9f9;}
 
 /* *logo colour */
 .navbar-light .navbar-brand {
   text-align: left;
   font-size: 3rem;
   font-style: italic;
-  color: #e9967a;
+  color: #c7866a;
 }
 
 /* Right hand buttons */
@@ -19,7 +19,7 @@ background-color: #f3d4bf;}
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fff1e9;
+    color: #c7866a;
 }
 
 /* Carousel section */
@@ -42,7 +42,7 @@ background-color: #f3d4bf;}
 
 /* About me  */
 #About-me {
-  background-color:#e9967a;
+  background-color:#c7866a;
 
 }
 .personal-description {
@@ -58,7 +58,7 @@ background-color: #f3d4bf;}
 
 /* Smaller Images  */
 #smaller-images {
-  background-color: #fff1e9;
+  background-color: #c7866a;
 padding:5% 7% 5% 7%;
 
 }
@@ -101,11 +101,15 @@ padding:5% 7% 5% 7%;
 
 .btn {
   font-size:  1.25rem;
+  }
+
+.btn btn-light:hover {
+  background: #c7866a;
 }
 
 .Copyright {
   font-size: 1.30rem;
-  color:#fff1e9;
+  color:#c7866a;
 }
 .footer-logo {
   margin: 20px 20px;
@@ -115,13 +119,13 @@ padding:5% 7% 5% 7%;
 
 /* unvisited link */
 a:link {
-  color: #fff1e9;
+  color: #c7866a;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #fff1e9;
+  color: #c7866a;
   text-decoration: none;
 }
 
@@ -133,13 +137,13 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #fff1e9;
+  color: #c7866a;
   text-decoration: none;
   }
 
-.navbar-light .navbar-nav .active>.nav-link{ color: #fff1e9;}
+.navbar-light .navbar-nav .active>.nav-link{ color: #c7866a;}
 
-.navbar-light .navbar-nav .active>.nav-link:hover {color:rgba(0,0,0,.5);}
+.navbar-light .navbar-nav .active>.nav-link:hover {color:#c7866a;}
 
 .attributions {font-size:0.5rem; }
 
@@ -155,3 +159,89 @@ a:active {
 @media screen and (max-width: 754px) {
     .floral-design {display: none;}
 }
+
+/* Portfolio Main Page  */
+
+
+#second-carousel_1 {padding: 20% 5%;
+}
+img {width: 400px;}
+
+h2 {font-weight: bold;
+color: #c7866a;}
+
+.title_portfolio {padding:5% 15% 3%; }
+
+#second-carousel_2 {padding-left: 5%;
+padding-right: 5%;}
+#second-carousel_3 {padding-left: 5%;
+padding-right: 5%;}
+
+/* Stories */
+$(document).ready(function() {
+    $('#Carousel').carousel({
+        interval: 5000
+    })
+});
+body{padding-top:20px;}
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+
+/* Conctact me page  */
+
+.title_contactme {color: #c7866a;
+  font-style: italic;
+padding: 5% 15% 0%}
+
+#Contact-me {
+  color:#c7866a;
+  font-weight: lighter;
+  font-size: 25px;
+  padding-left: 10%;
+  line-height:0.8;
+}
+
+input,textarea {background-color: #faf9f9;
+}
+
+input[type=submit] {
+  padding:15px;
+   background:#c7866a;
+   color:#faf9f9;
+   border:0 none;
+   cursor:pointer;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+}
+
+.floral-design2 {
+  padding-left:0;}
