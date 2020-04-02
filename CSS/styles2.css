@@ -7,6 +7,7 @@
 h1 {
   font-weight: bold;
   color: rgb(199, 134, 106);
+  padding-top: 7%;
 }
 
 h2 {
@@ -30,7 +31,7 @@ font-weight: bolder;
   color: #c7866a;
 }
 
-/* Right hand buttons */
+/* Right hand buttons at the top*/
 .nav-item {
   text-align: right;
   padding: 0 18px;
