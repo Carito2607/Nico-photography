@@ -53,7 +53,6 @@ background-color: #faf9f9;}
 /* Video Section */
 #video {
   padding: 5% 15%;
-
   background:#f1e9e3;
 }
 /* #dfbe9a */
@@ -97,7 +96,7 @@ padding:5% 7% 5% 7%;
 }
 
 /* Contact me  */
-#contact-me {
+#contact_me_footer {
   padding: 5% 15% 3%;
 }
 
@@ -162,6 +161,10 @@ a:active {
     .floral-design {display: none;}
 }
 
+@media screen and (max-width: 575px) {
+label, input {font-size: 1rem;line-height:0.9375rem;}
+  }
+
 /* Portfolio Main Page  */
 
 
@@ -196,9 +199,9 @@ padding: 5% 15% 0%}
 #Contact-me {
   color:#c7866a;
   font-weight: lighter;
-  font-size: 25px;
+  font-size: 1.5625rem;
   padding-left: 10%;
-  line-height:0.8;
+  line-height:0.75rem;
 }
 
 input,textarea {background-color: #faf9f9;
