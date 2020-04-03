@@ -45,7 +45,8 @@ font-weight: bolder;
 /* First Carousel section */
 .carousel-item-prev,
 .carousel-item-next,
-.carousel-item.active {
+/* .carousel-item.active lo quite porque hacia q no se vieran las otras images despues de esta en mobile version */
+{
   display: flex;
 }
 
