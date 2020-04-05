@@ -175,7 +175,12 @@ form {font-size: 1rem;line-height:1rem;}
     line-height: 1rem;
   }
 }
-
+@media screen and (max-width: 762px) {
+  form {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
 
 /* Portfolio Main Page  */
 
