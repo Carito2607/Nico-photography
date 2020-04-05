@@ -168,7 +168,15 @@ form {font-size: 1rem;line-height:1rem;}
 @media screen and (max-width: 603px) {
   form {font-size: 1rem;line-height:1rem;}
     }
-/* label, input */
+
+@media screen and (max-width: 754px) {
+  form {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
+
+
 /* Portfolio Main Page  */
 
 
