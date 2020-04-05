@@ -162,9 +162,13 @@ a:active {
 }
 
 @media screen and (max-width: 575px) {
-label, input {font-size: 1rem;line-height:0.9375rem;}
+form {font-size: 1rem;line-height:1rem;}
   }
 
+@media screen and (max-width: 603px) {
+  form {font-size: 1rem;line-height:1rem;}
+    }
+/* label, input */
 /* Portfolio Main Page  */
 
 
@@ -206,6 +210,10 @@ padding: 5% 15% 0%}
 
 input,textarea {background-color: #faf9f9;
 }
+
+label {
+padding-top:2%;
+  padding-bottom: 2%;}
 
 input[type=submit] {
   padding:15px;
