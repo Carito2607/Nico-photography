@@ -1,7 +1,8 @@
 * body {
-font-family: 'Alegreya SC';
-text-align: center;
-background-color: #faf9f9;}
+  font-family: 'Alegreya SC';
+  text-align: center;
+  background-color: #faf9f9;
+}
 
 /* *logo colour */
 .navbar-light .navbar-brand {
@@ -19,7 +20,7 @@ background-color: #faf9f9;}
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #c7866a;
+  color: #c7866a;
 }
 
 /* Carousel section */
@@ -30,44 +31,45 @@ background-color: #faf9f9;}
 
 .carousel-image {
   width: 100%;
-  height:40%;
-  }
+  height: 40%;
+}
 
 .carousel-text {
-
   font-size: 1.875rem;
   font-style: italic;
-  color:#fff1e9;
+  color: #fff1e9;
 }
 
 /* About me  */
 #About-me {
-  background-color:#c7866a;
-
+  background-color: #c7866a;
+  font-size: 1rem;
 }
+
 .personal-description {
-  padding:5% 15% 7%;
-  color:#fff1e9;
+  padding: 5% 15% 7%;
+  color: #fff1e9;
 }
 
 /* Video Section */
 #video {
   padding: 5% 15%;
-  background:#f1e9e3;
+  background: #f1e9e3;
 }
-/* #dfbe9a */
 
+/* #dfbe9a */
 /* Smaller Images  */
 #smaller-images {
   background-color: #c7866a;
-padding:5% 7% 5% 7%;
-
+  padding: 5% 7% 5% 7%;
 }
 
-.align-self-start {padding: }
+.align-self-start {
+  padding:
+}
 
 .centered {
-  color:#fff1e9;
+  color: #fff1e9;
   font-size: 1.875rem;
   position: absolute;
   top: 50%;
@@ -75,14 +77,16 @@ padding:5% 7% 5% 7%;
   transform: translate(-50%, -50%);
 }
 
-.floral-design {padding-left: 45%;
- }
-
+.floral-design {
+  padding-left: 45%;
+}
 
 /* Quick-zoom Container */
 .img-hover-zoom {
-  height: auto; /* [1.1] Set it as per your need */
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  height: auto;
+  /* [1.1] Set it as per your need */
+  overflow: hidden;
+  /* [1.2] Hide the overflowing of child elements */
 }
 
 /* [2] Transition property for smooth transformation of images */
@@ -101,8 +105,8 @@ padding:5% 7% 5% 7%;
 }
 
 .btn {
-  font-size:  1.25rem;
-  }
+  font-size: 1.25rem;
+}
 
 .btn btn-light:hover {
   background: #c7866a;
@@ -110,14 +114,14 @@ padding:5% 7% 5% 7%;
 
 .Copyright {
   font-size: 1.30rem;
-  color:#c7866a;
+  color: #c7866a;
 }
+
 .footer-logo {
   margin: 20px 20px;
 }
 
 /* Links section */
-
 /* unvisited link */
 a:link {
   color: #c7866a;
@@ -140,34 +144,55 @@ a:hover {
 a:active {
   color: #c7866a;
   text-decoration: none;
-  }
+}
 
-.navbar-light .navbar-nav .active>.nav-link{ color: #c7866a;}
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #c7866a;
+}
 
-.navbar-light .navbar-nav .active>.nav-link:hover {color:#c7866a;}
+.navbar-light .navbar-nav .active>.nav-link:hover {
+  color: #c7866a;
+}
 
-.attributions {font-size:0.5rem; }
+.attributions {
+  font-size: 0.5rem;
+}
 
 @media screen and (max-width: 575px) {
-  .mmMY {margin: 1rem 0;}
-  .floral-design {display: none;}
+  .mmMY {
+    margin: 1rem 0;
+  }
+
+  .floral-design {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 603px) {
-    .floral-design {display: none;}
+  .floral-design {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 754px) {
-    .floral-design {display: none;}
+  .floral-design {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 575px) {
-form {font-size: 1rem;line-height:1rem;}
+  form {
+    font-size: 1rem;
+    line-height: 1rem;
   }
+}
 
 @media screen and (max-width: 603px) {
-  form {font-size: 1rem;line-height:1rem;}
-    }
+  form {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
 
 @media screen and (max-width: 754px) {
   form {
@@ -183,8 +208,6 @@ form {font-size: 1rem;line-height:1rem;}
 }
 
 /* Portfolio Main Page  */
-
-
 /* #second-carousel_1 {padding: 20% 5%;
 }
 .img-responsive {width: 400px;}
@@ -198,45 +221,46 @@ color: #c7866a;}
 padding-right: 5%;}
 #second-carousel_3 {padding-left: 5%;
 padding-right: 5%;} */
-
 /* Stories */
 /* body{padding-top:20px;}
 .carousel {
     margin-bottom: 0;
     padding: 0 40px 30px 40px;
 } */
-
-
 /* Contact me page  */
-
-.title_contactme {color: #c7866a;
+.title_contactme {
+  color: #c7866a;
   font-style: italic;
-padding: 5% 15% 0%}
+  padding: 5% 15% 0%
+}
 
 #Contact-me {
-  color:#c7866a;
+  color: #c7866a;
   font-weight: lighter;
   font-size: 1.5625rem;
   padding-left: 10%;
-  line-height:0.75rem;
+  line-height: 0.75rem;
 }
 
-input,textarea {background-color: #faf9f9;
+input, textarea {
+  background-color: #faf9f9;
 }
 
 label {
-padding-top:2%;
-  padding-bottom: 2%;}
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
 input[type=submit] {
-  padding:15px;
-   background:#c7866a;
-   color:#faf9f9;
-   border:0 none;
-   cursor:pointer;
-   -webkit-border-radius: 5px;
-   border-radius: 5px;
+  padding: 15px;
+  background: #c7866a;
+  color: #faf9f9;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .floral-design2 {
-  padding-left:0;}
+  padding-left: 0;
+}
