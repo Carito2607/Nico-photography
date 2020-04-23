@@ -43,29 +43,21 @@
 /* About me  */
 #About-me {
   background-color: #c7866a;
-  font-size: 1rem;
-}
-
-.personal-description {
-  padding: 5% 15% 7%;
   color: #fff1e9;
+  font-size: 1.20rem;
+  padding: 7% 8% 7%;
 }
 
 /* Video Section */
 #video {
-  padding: 5% 15%;
+  padding: 5%;
   background: #f1e9e3;
 }
 
-/* #dfbe9a */
 /* Smaller Images  */
 #smaller-images {
   background-color: #c7866a;
   padding: 5% 7% 5% 7%;
-}
-
-.align-self-start {
-  padding:
 }
 
 .centered {
@@ -180,30 +172,12 @@ a:active {
   }
 }
 
-@media screen and (max-width: 575px) {
-  form {
-    font-size: 1rem;
-    line-height: 1rem;
-  }
-}
-
-@media screen and (max-width: 603px) {
-  form {
-    font-size: 1rem;
-    line-height: 1rem;
-  }
-}
-
-@media screen and (max-width: 754px) {
-  form {
-    font-size: 1rem;
-    line-height: 1rem;
-  }
-}
-@media screen and (max-width: 762px) {
-  form {
-    font-size: 1rem;
-    line-height: 1rem;
+@media screen and (max-width: 608px) {
+  form,label,option {
+    font-size:1rem;
+    line-height: 15px;
+    width: auto;
+    padding: 2%;
   }
 }
 
@@ -230,34 +204,43 @@ padding-right: 5%;} */
 /* Contact me page  */
 .title_contactme {
   color: #c7866a;
-  font-style: italic;
   padding: 5% 15% 0%
 }
 
 #Contact-me {
   color: #c7866a;
-  font-weight: lighter;
   font-size: 1.5625rem;
-  padding-left: 10%;
+  padding: 1% 8%;
   line-height: 0.75rem;
+  /* background-color: #ddbc89; */
+  background: linear-gradient(to bottom right, #faf9f9 0%, #c7866a 100%);
+  width: auto;
 }
 
+/* Styling of the form  */
 input, textarea {
   background-color: #faf9f9;
+  border-radius: 10px;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  display: block;
 }
 
-label {
-  padding-top: 2%;
-  padding-bottom: 2%;
+select, select option:first-child {
+  font-family: 'Alegreya SC';
+  font-size: 1.2rem;
+  color: #c7866a;
+  display: block;
+  margin-bottom: 2%;
 }
 
 input[type=submit] {
   padding: 15px;
+  margin: 25px 0;
   background: #c7866a;
   color: #faf9f9;
   border: 0 none;
   cursor: pointer;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
 }
 
