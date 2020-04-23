@@ -232,6 +232,7 @@ select, select option:first-child {
   color: #c7866a;
   display: block;
   margin-bottom: 2%;
+    border-radius: 10px;
 }
 
 input[type=submit] {
