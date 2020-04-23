@@ -11,7 +11,8 @@
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/styles.css">
-  <link rel="icon" href="white rose.ico"> 
+  <link rel="icon" href="white rose.ico">
+
   <!-- Font Awesome  -->
   <script src="https://kit.fontawesome.com/dbbb2cc6a2.js" crossorigin="anonymous"></script>
 
@@ -25,7 +26,7 @@
 <body>
   <section id="title">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="index.html"/ target="_blank">Ivory Roses</a>
+      <a class="navbar-brand" href="index.html" / target="_blank">Ivory Roses</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,49 +34,63 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="portfolio.html"/target="_blank">Portfolio <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="portfolio.html" /target="_blank">Portfolio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.instagram.com/ivoryrosesweddings/" target="_blank">Stories</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact-me.html"/ target="_blank">Contact</a>
+            <a class="nav-link" href="contact-me.html" / target="_blank">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
   </section>
 
+  <section id="Contact-me">
 
-<section id="Contact-me">
+    <h1 class="title_contactme"><strong>I want to hear all about you</strong></h1>
+    <img class="floral-design2" src="images/floral-color.png" alt="floral-design">
+    <div class="container-fluid" style="text-align:left;">
+      <form action="mailto:nicoalcalafotografia@hotmail.com" method="post" enctype="text/plain">
+        <label for="names">Bride and Groom's names</label>
+        <input id="names" type="text" name="names" required>
+        <label for="ceremony context">Tell me about the ceremony (religious/civil).Where is it going to be? How it will be?</label>
+        <textarea id="ceremony context" name="ceremony context" rows="5" cols="30"></textarea>
+        <label for="specifics of ceremony">Tell me about your day! Is it going to be a full day or an afternoon ceremony? What would make it super special?</label>
+        <textarea id="specifics of ceremony" name="specifics of ceremony" rows="5" cols="30" required></textarea>
+        <label for="why did you choose me?">Connecting is very important, so tell me what do you like about my work and why?</label>
+        <textarea id="why did you choose me?" name="why did you choose me?" rows="5" cols="30"></textarea>
+        <label for="advice for wedding">Do you need any help or advice for your wedding? If so, please specify what areas</label>
+        <textarea id="advice for wedding" name="advice for wedding" rows="5" cols="30"></textarea>
+        <label for="email">Your email</label>
+        <input id="email" type="email" name="Email" value="" required>
+        <label for="telephone number">Telephone number</label>
+        <input id="telephone number" type="text" name="Telephone number" required>
+        <label for="anything important to keep in mind">Please write here anything you think is important for me to know</label>
+        <textarea id="anything important to keep in mindg" name="anything important to keep in mind" rows="5" cols="30" required></textarea>
+        <label for="photographer hunt level">Where are you on your photographer hunt?</label>
+        <select id="photographer hunt level" name="photographer hunt level">
+          <option value="Options">Please select</option>
+          <option value="price shopping">Price Shopping</option>
+          <option value="ready to book">Ready to book with you</option>
+          <option value="more info">I'm interested in more info</option>
+        </select>
 
+        <label for="referral">How did you hear about me?</label>
+        <select id="referral" name="referral">
+          <option value="Options">Please select</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Google">Google</option>
+          <option value="Facebook">Facebook</option>
+          <option value="Blog">Blog</option>
+          <option value="Referral">Referal</option>
+        </select>
 
-<h1 class="title_contactme"><strong>I want to hear all about you</strong></h1>
-<img class="floral-design2" src="images/floral-color.png" alt="floral-design">
-<div class="container-fluid"style="text-align:left;">
-  <form action="mailto:nicoalcalafotografia@hotmail.com"method="post" enctype="text/plain">
-    <label>Bride’s and Grooms names</label><br><br />
-    <input type="text" name="Name of Bride"/><br><br />
-      <label>Telephone number</label><br><br />
-    <input type="text" name="Telephone number"/><br><br />
-    <label>Tell me about the ceremony. Religious/civil? Where is it going to be? How it will be?</label><br><br />
-    <textarea name="Tell me about the ceremony. Religious/civil? Where is it going to be. How it will be" rows="5" cols="30"></textarea><br><br />
-    <label>Tell me about your day! Is it going to be a full day or an afternoon ceremony? What would make it super special?</label>
-    <textarea name="Tell me about your day! Is it going to be a full day or an afternoon ceremony? What would make it super special?" rows="5" cols="30"></textarea><br><br />
-    <label>Connecting is very important, so tell me What do you like about my work and why?</label><br><br />
-    <textarea name="Connecting is very important, so tell me What do you like about my work and why?" rows="5" cols="30"></textarea><br><br />
-    <label>Do you need any help or advice for your wedding? What are the areas you’ll need help?</label><br><br />
-    <textarea name="Do you need any help or advice for your wedding? What are the areas you will need help?" rows="5" cols="30"></textarea><br><br />
-    <label>Your email</label>
-    <input type="email" name="Email" value=""><br><br>
-    <br>
-    <label>Please write here anything you think is important for me to know</label><br><br />
-    <textarea name="Message" rows="8" cols="30"></textarea><br><br />
-    <label>How did you hear about me?</label><br><br />
-    <input type="text" name="How did you hear from me"/><br><br />
-    <input type="submit" />
-  </form>
+        <input type="submit" />
+      </form>
     </div>
+
   </section>
 
 
@@ -84,7 +99,7 @@
     <div class="container-fluid">
       <!-- <button type="button" class="btn btn-outline-light"><a href="mailto:nicoalcalafotografia@hotmail.com">Get in Touch</a></button> -->
 
-      <br>
+
 
       <!-- <i class="footer-logo fab fa-twitter"></i>
       <i class="footer-logo fab fa-facebook-f"></i> -->
@@ -96,6 +111,7 @@
     </div>
 
   </section>
+
 
 
 </body>
