@@ -1,7 +1,32 @@
-* body {
+body {
   font-family: 'Alegreya SC';
   text-align: center;
   background-color: #faf9f9;
+}
+
+h1 {
+  font-weight: bold;
+  color: rgb(199, 134, 106);
+  padding-top: 5%;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+h4 {
+  text-align: center;
+  padding: 3% 0% 3% 0;
+}
+
+h6 {
+  font-weight: bolder;
+  color: #af460f;
+}
+
+hr {
+  border-top: 3px double #c7866a;
+  width: 40%;
 }
 
 /* *logo colour */
@@ -12,10 +37,11 @@
   color: #c7866a;
 }
 
+/* For all pages */
 /* Right hand buttons */
 .nav-item {
   text-align: right;
-  padding: 0 18px;
+  padding: 0 1rem;
   font-size: 1.25rem;
 }
 
@@ -40,12 +66,14 @@
   color: #fff1e9;
 }
 
-/* About me  */
+/* Index page -
+About me section */
 #About-me {
   background-color: #c7866a;
   color: #fff1e9;
   font-size: 1.20rem;
-  padding: 7% 8% 7%;
+  padding: 3% 8%;
+  display: block;
 }
 
 /* Video Section */
@@ -91,7 +119,7 @@
   transform: scale(1.5);
 }
 
-/* Contact me  */
+/* Contact me section  */
 #contact_me_footer {
   padding: 5% 15% 3%;
 }
@@ -110,7 +138,7 @@
 }
 
 .footer-logo {
-  margin: 20px 20px;
+  margin: 1.111rem;
 }
 
 /* Links section */
@@ -146,20 +174,31 @@ a:active {
   color: #c7866a;
 }
 
-.attributions {
+/* .attributions {
   font-size: 0.5rem;
-}
-
+} */
 @media screen and (max-width: 575px) {
   .mmMY {
     margin: 1rem 0;
   }
 
+  form.container {
+    margin-left: 35px;
+    margin-right: 0;
+    padding: 15px;
+  }
+
   .floral-design {
-    display: none;
+    d: none;
   }
 }
 
+#About-me {
+  font-size: 1rem;
+}
+}
+
+/* This next part could potentially be removed if the floral design is removed */
 @media screen and (max-width: 603px) {
   .floral-design {
     display: none;
@@ -173,57 +212,47 @@ a:active {
 }
 
 @media screen and (max-width: 608px) {
-  form,label,option {
-    font-size:1rem;
-    line-height: 15px;
-    width: auto;
-    padding: 2%;
+  form, label, option {
+    font-size: 1rem;
+    padding: 1%;
   }
 }
 
-/* Portfolio Main Page  */
-/* #second-carousel_1 {padding: 20% 5%;
-}
-.img-responsive {width: 400px;}
-
-h2 {font-weight: bold;
-color: #c7866a;}
-
-.title_portfolio {padding:5% 15% 3%; } */
-/*
-#second-carousel_2 {padding-left: 5%;
-padding-right: 5%;}
-#second-carousel_3 {padding-left: 5%;
-padding-right: 5%;} */
-/* Stories */
-/* body{padding-top:20px;}
-.carousel {
-    margin-bottom: 0;
-    padding: 0 40px 30px 40px;
-} */
-/* Contact me page  */
-.title_contactme {
-  color: #c7866a;
-  padding: 5% 15% 0%
+/* Portfolio page */
+/* First Carousel section */
+.carousel-item-prev,
+.carousel-item-next,
+/* .carousel-item.active lo quite porque hacia q no se vieran las otras images despues de esta en mobile version */
+  {
+  display: flex;
 }
 
+/* control image height */
+.card-img-top-250 {
+  max-height: 225px;
+  overflow: hidden;
+}
+
+/* smoother transitions */
+.carousel-inner>.carousel-item.next.left,
+.carousel-inner>.carousel-item.prev.right,
+  {
+  transition: all 1s ease;
+}
+
+/* Contact me webpage  */
+/* check changes made in Media  */
 #Contact-me {
   color: #c7866a;
-  font-size: 1.5625rem;
-  padding: 1% 8%;
-  line-height: 0.75rem;
-  /* background-color: #ddbc89; */
-  background: linear-gradient(to bottom right, #faf9f9 0%, #c7866a 100%);
-  width: auto;
+  font-size: 1.4375rem;
+  /* background: linear-gradient(to bottom right, #faf9f9 0%, #c7866a 100%); */
 }
 
 /* Styling of the form  */
-input, textarea {
+input, textarea, {
   background-color: #faf9f9;
-  border-radius: 10px;
-  padding-bottom: 1%;
-  margin-bottom: 2%;
   display: block;
+  border-radius: 0.8333rem;
 }
 
 select, select option:first-child {
@@ -231,20 +260,42 @@ select, select option:first-child {
   font-size: 1.2rem;
   color: #c7866a;
   display: block;
-  margin-bottom: 2%;
-    border-radius: 10px;
+  margin-bottom: 1%;
+  border-radius: 0.1667rem;
 }
 
 input[type=submit] {
-  padding: 15px;
-  margin: 25px 0;
+  padding: 0.32rem 0.6rem;
+  margin: 0.96rem 0;
   background: #c7866a;
   color: #faf9f9;
-  border: 0 none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 0.1667rem;
 }
 
-.floral-design2 {
-  padding-left: 0;
+.bg-img {
+  /* background-image: url("file:///C:/Users/CSalazar/Desktop/web%20design/My_sites/Nicole%20photography/images/NIC_4296.jpg");
+  /* background-image: url("https://home.bt.com/images/guadeloupe-136423693207102601-171214135312.jpg"); */
+  /* background-image: url("/images/NIC_4296.jpg"); */
+  /* background-image: url(.../images/NIC_4296.jpg); */
+  background-image: url("Styled-Shoot-022.jpg");
+  /* background-image: url ("/Nicole_photography/images/NIC_4296.jpg"); */
+  height: 1000px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.containerContactme {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 600px;
+  padding: 15px;
+  background-color: white;
+  text-align: left;
+  font-size: 1rem;
+  border: 1px solid #c7866a;
 }
