@@ -185,6 +185,7 @@ a:active {
   form.container {
     /* margin-left: 35px; */
     margin-right: 0;
+      font-size: 0.875rem;
     /* padding: 15px; */
   }
 
