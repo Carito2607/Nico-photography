@@ -183,9 +183,9 @@ a:active {
   }
 
   form.container {
-    margin-left: 35px;
+    /* margin-left: 35px; */
     margin-right: 0;
-    padding: 15px;
+    /* padding: 15px; */
   }
 
   .floral-design {
