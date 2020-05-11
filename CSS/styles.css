@@ -80,6 +80,7 @@ About me section */
 #video {
   padding: 5%;
   background: #f1e9e3;
+
 }
 
 /* Smaller Images  */
@@ -181,43 +182,11 @@ a:active {
   .mmMY {
     margin: 1rem 0;
   }
-
-  form.container {
-    /* margin-left: 35px; */
-    margin-right: 0;
-      font-size: 0.875rem;
-    /* padding: 15px; */
-  }
-
-  .floral-design {
-    d: none;
-  }
-}
-
 #About-me {
-  font-size: 1rem;
-}
-}
-
-/* This next part could potentially be removed if the floral design is removed */
-@media screen and (max-width: 603px) {
-  .floral-design {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 754px) {
-  .floral-design {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 608px) {
-  form, label, option {
     font-size: 1rem;
-    padding: 1%;
   }
-}
+  }
+
 
 /* Portfolio page */
 /* First Carousel section */
@@ -250,22 +219,16 @@ a:active {
 }
 
 /* Styling of the form  */
-input, textarea, {
-  background-color: #faf9f9;
-  display: block;
-  border-radius: 0.8333rem;
+.form-control, select option {
+display: block;
+/* font-size: 1.2rem; */
+color: #c7866a;
+/* font-family: 'Alegreya SC'; */
+
 }
 
-select, select option:first-child {
-  font-family: 'Alegreya SC';
-  font-size: 1.2rem;
-  color: #c7866a;
-  display: block;
-  margin-bottom: 1%;
-  border-radius: 0.1667rem;
-}
 
-input[type=submit] {
+.submitContactpage {
   padding: 0.32rem 0.6rem;
   margin: 0.96rem 0;
   background: #c7866a;
@@ -274,29 +237,16 @@ input[type=submit] {
   border-radius: 0.1667rem;
 }
 
-.bg-img {
-  /* background-image: url("file:///C:/Users/CSalazar/Desktop/web%20design/My_sites/Nicole%20photography/images/NIC_4296.jpg");
-  /* background-image: url("https://home.bt.com/images/guadeloupe-136423693207102601-171214135312.jpg"); */
-  /* background-image: url("/images/NIC_4296.jpg"); */
-  /* background-image: url(.../images/NIC_4296.jpg); */
-  background-image: url("Styled-Shoot-022.jpg");
-  /* background-image: url ("/Nicole_photography/images/NIC_4296.jpg"); */
-  height: 1000px;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .containerContactme {
   position: absolute;
   right: 0;
   margin: 20px;
-  max-width: 600px;
+  max-width: 37.5rem;
   padding: 15px;
-  background-color: white;
+  background-color: #faf9f9;
   text-align: left;
   font-size: 1rem;
   border: 1px solid #c7866a;
+  color: #c7866a;
+  font-family: 'Alegreya SC';
 }
