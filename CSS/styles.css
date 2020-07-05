@@ -49,6 +49,10 @@ hr {
   color: #c7866a;
 }
 
+nav#mainNavbar{
+  background-color: #faf9f9;
+}
+
 /* Carousel section */
 .container-fluid {
   text-align: center;
